@@ -1,8 +1,11 @@
 import React from 'react'
+import WeatherApp from './components/Weather'
 
 function App() {
   return (
-    <div>App</div>
+    <div> 
+      <WeatherApp/>
+    </div>
   )
 }
 
