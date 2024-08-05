@@ -65,8 +65,7 @@ const WeatherApp = () => {
                     type="text"
                     value={city}
                     onChange={(e) => setCity(e.target.value)}
-                    placeh
-                    older="Enter city name"
+                    placeholder="Enter city name"
                 />
                 <br />
                 <button onClick={fetchWeather}
